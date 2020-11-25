@@ -862,6 +862,15 @@ a {
   .header__menu.active {
     top: 0;
   }
+  
+  .header__menu.active ul li{
+        text-align: center;
+        width: 100%;
+    }
+  
+    .header__menu.active ul li a{
+        display: block;
+    }
 
   .about {
     margin-top: 30px;
